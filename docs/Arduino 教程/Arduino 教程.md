@@ -155,7 +155,7 @@ F - 用于从板接收串行数据并将串行数据发送到板的串行监视
 
 #### 2.2.下载CH340驱动:
 
-[https://fs.keyestudio.com/CH340-MAC](https://fs.keyestudio.com/CH340-MAC)
+[https://fs.keyes.com/CH340-MAC](https://fs.keyes.com/CH340-MAC)
 
 在我们对应的文件夹中，也提供了CH340驱动（MAC），可以不用下载。
 
@@ -285,7 +285,7 @@ SPI通信接口：D10为SS、D11为MOSI、D12为MISO、D13为SCK
 
 IIC通信端口：A4为SDA、A5为SCL
 
-### 项目 2: keyestudio NANO 扩展板
+### 项目 2: keyes NANO 扩展板
 
 （1）说明：
 
@@ -336,7 +336,7 @@ keyes Nano ch340
 
 （6）使用方法：
 
-只需将keyes Nano ch340主板堆叠到keyestudio Nano扩展板上,通过白色接头用电池供电。
+只需将keyes Nano ch340主板堆叠到keyes Nano扩展板上,通过白色接头用电池供电。
 
 ![](media/a3f329492731c70eeec3032217a5dc4e.png)
 
@@ -395,7 +395,7 @@ keyes Nano ch340
 
 4.  接线图：
 
-只需将keyes Nano ch340主板堆叠到keyestudio Nano扩展板。连接舵机引脚到数字引脚4 。
+只需将keyes Nano ch340主板堆叠到keyes Nano扩展板。连接舵机引脚到数字引脚4 。
 
 ![](media/d8ec79d87f840007ff2d994fbb8082fb.png)
 
@@ -914,8 +914,8 @@ void loop(){
 
 ### 接线：
 
-先将keyes Nano ch340主板堆叠到keyestudio NANO
-扩展板上，然后用4根母对母杜邦线将HC-SR04超声波传感器模块连接到keyestudio NANO
+先将keyes Nano ch340主板堆叠到keyes NANO
+扩展板上，然后用4根母对母杜邦线将HC-SR04超声波传感器模块连接到keyes NANO
 扩展板上，超声波传感器的VCC引脚连接至5V(V)，Trig引脚至数字6(S)，Echo引脚至数字7(S)，Gnd引脚至Gnd(G)（超声波传感器布线可以参考项目
 4）
 
@@ -938,10 +938,10 @@ RR D5==>  -----   ------   <== RL D4
          |-----   ------|
 
 
-插入DX-BT24 V5.1 BLE蓝牙模块，引脚头TX, RX, GND, 5V在Keyestudio NANO扩展板上。
+插入DX-BT24 V5.1 BLE蓝牙模块，引脚头TX, RX, GND, 5V在keyes NANO扩展板上。
 
 
-|Keyestudio NANO扩展板|DX-BT24 V5.1 BLE蓝牙模块|
+|keyes NANO扩展板|DX-BT24 V5.1 BLE蓝牙模块|
 |-|-|
 |TX|RXD|
 |RX|TXD|
@@ -961,8 +961,8 @@ RR D5==>  -----   ------   <== RL D4
 
 1.  设计思路：
 
-完成机器人组装后，你会看到机器人上的4个舵机连接到keyestudio Nano
-扩展板上。我们前面已经介绍了如何调整舵机角度的相关知识。在电路中，我们将利用keyestudio Nano 扩展板使4个舵机进行不同角度的切换，从而控制青蛙机器人行走起来。
+完成机器人组装后，你会看到机器人上的4个舵机连接到keyes Nano
+扩展板上。我们前面已经介绍了如何调整舵机角度的相关知识。在电路中，我们将利用keyes Nano 扩展板使4个舵机进行不同角度的切换，从而控制青蛙机器人行走起来。
 
 2.  青蛙是如何工作的?
 
@@ -982,7 +982,7 @@ RR D5==>  -----   ------   <== RL D4
 
 3.  接线图:
 
-只需将keyes Nano ch340主板堆叠到keyestudio Nano扩展板上。将4个舵机与数字引脚2,3,4,5分别连接。
+只需将keyes Nano ch340主板堆叠到keyes Nano扩展板上。将4个舵机与数字引脚2,3,4,5分别连接。
 
 ![](media/6320562f65a132627230afb64cd9a873.png)
 
@@ -2133,7 +2133,7 @@ POS 设备；
 
 ⑥EN：使能脚
 
-将蓝牙连接到Keyestudio
+将蓝牙连接到keyes
 Nano扩展板上：
 
 
@@ -2143,7 +2143,7 @@ Nano扩展板上：
 
 
 
-|Keyestudio NANO扩展板|DX-BT24 V5.1 BLE蓝牙模块|
+|keyes NANO扩展板|DX-BT24 V5.1 BLE蓝牙模块|
 |-|-|
 |TX|RXD|
 |RX|TXD|
@@ -2209,7 +2209,7 @@ Nano扩展板上：
 1.接线图:
 
 先将 Nano ch340 主板堆叠到Nano
-扩展板上，然后将蓝牙模块连接到Keyestudio
+扩展板上，然后将蓝牙模块连接到keyes
 Nano扩展板上：
 
 
@@ -2219,7 +2219,7 @@ Nano扩展板上：
 
 
 
-|Keyestudio NANO扩展板|DX-BT24 V5.1 BLE蓝牙模块|
+|keyes NANO扩展板|DX-BT24 V5.1 BLE蓝牙模块|
 |-|-|
 |TX|RXD|
 |RX|TXD|
@@ -2321,7 +2321,7 @@ void loop(){
 
 2. 接线图:
 
-先将Nano ch340 主板堆叠到 Nano 扩展板上，然后将蓝牙连接到Keyestudio Nano扩展板上：
+先将Nano ch340 主板堆叠到 Nano 扩展板上，然后将蓝牙连接到keyes Nano扩展板上：
 
 
 
@@ -2330,7 +2330,7 @@ void loop(){
 
 
 
-|Keyestudio NANO扩展板|DX-BT24 V5.1 BLE蓝牙模块|
+|keyes NANO扩展板|DX-BT24 V5.1 BLE蓝牙模块|
 |-|-|
 |TX|RXD|
 |RX|TXD|

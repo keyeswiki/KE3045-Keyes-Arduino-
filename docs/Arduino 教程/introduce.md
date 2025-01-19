@@ -45,7 +45,7 @@
 |-|-|-|-|
 |1|Keyes nano ch340 主板|1|![](media/a691368d1aeb641defa2ad1ecfe67072.jpg)|
 |2|AM/mini5P透明蓝 OD:5.0 L=30cm|1|![](media/592acb415b4edc233260b581b2587c9c.jpg)|
-|3|keyestudio NANO 扩展板|1|![](media/bbafe98e073f057f81b99ce43b3bbe34.jpg)|
+|3|keyes NANO 扩展板|1|![](media/bbafe98e073f057f81b99ce43b3bbe34.jpg)|
 |4|DX-BT24 V5.1 BLE蓝牙模块 上电不打印数据|1|![](media/5932436a0916951504a9debb97a905c3.jpeg)|
 |5|HC-SR04超声波传感器|1|![](media/7adc5a6ae98851ed29d117297b449ce8.jpg)|
 |6|18650双节15CM露线适用DIY小车+双头JST-PH2.0MM-2P红黑线(总线长115MM)|1|![](media/3c0df32917f157f5405753bb652fc4d2.jpg)|
