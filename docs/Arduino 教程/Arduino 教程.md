@@ -2,11 +2,11 @@
 
 ## Arduino软件下载安装，驱动安装和库文件添加
 
-**1.Windows系统：**
+### **1.Windows系统：**
 
 ![](media/6cf6312dc7c7db27794b54d58a8bf80c.png)
 
-### 1.1.下载安装Arduino软件：
+#### 1.1.下载安装Arduino软件：
 
 （1）首先，进入arduino官方网站：[https://www.arduino.cc/](https://www.arduino.cc/)
 ，点击“SOFTWARE”进入下载页面，如下图所示：
@@ -47,7 +47,7 @@
 
 ![](media/d28223c55a30f949760779720fe4ec24.png)
 
-### 1.2.安装驱动：
+#### 1.2.安装驱动：
 
 （注意：如果电脑已经安装了CH340驱动程序，则不需要再安装驱动；如果没有，则需要进行以下操作）
 
@@ -85,7 +85,7 @@ Nano主板的USB转串口芯片为CH340G，我们需要安装这芯片的驱动�
 
 其CH340驱动安装操作过程和上面是相同的。
 
-### 1.3. Arduino IDE设置和工具栏介绍：
+#### 1.3. Arduino IDE设置和工具栏介绍：
 
 安装好了Nano主板的驱动后，下面需要了解Arduino IDE的使用，首先点击电脑桌面上的![](media/03c862147b3151f5635dca5aa1acdbf6.png)图标，打开Arduino IDE。
 
@@ -123,7 +123,7 @@ E - 用于保存草图。
 
 F - 用于从板接收串行数据并将串行数据发送到板的串行监视器。
 
-### 1.4.启动你的第一个程序:
+#### 1.4.启动你的第一个程序:
 
 上面已经学习了怎么下载ArduinoIDE和怎么安装Nano主板的驱动，那下面就正式开始第一个程序。单击“文件”选择“示例”，选择第一个文件“01.Basics”里面的“Blink”程序。
 
@@ -145,15 +145,15 @@ F - 用于从板接收串行数据并将串行数据发送到板的串行监视
 
 程序上传成功，利用USB线上电，板载的LED灯亮一秒钟，灭一秒钟，恭喜你的第一个程序完成了！
 
-**2.Mac系统:**
+### **2.Mac系统:**
 
-### 2.1.下载安装Arduino IDE:
+#### 2.1.下载安装Arduino IDE:
 
 下载安装说明与1.1章相同，如下图所示：
 
 ![](media/16f52258f554cb022cca9d068ed93dce.png)
 
-### 2.2.下载CH340驱动:
+#### 2.2.下载CH340驱动:
 
 [https://fs.keyestudio.com/CH340-MAC](https://fs.keyestudio.com/CH340-MAC)
 
@@ -161,25 +161,25 @@ F - 用于从板接收串行数据并将串行数据发送到板的串行监视
 
 ![](media/ad2bb4b8635fe441e23090ca81fac931.png)
 
-### 2.3.怎样安装CH340驱动:
+#### 2.3.怎样安装CH340驱动:
 
 请参考以下链接：[https://wiki.keyestudio.com/Download_CH340_Driver_on_MAC_System](https://wiki.keyestudio.com/Download_CH340_Driver_on_MAC_System)
 
-### 2.4.设置Arduino IDE:
+#### 2.4.设置Arduino IDE:
 
 除了COM端口设置之外，其他的设置方法与第1.4章相类似，如下图所示：
 
 ![](media/6c920b67a1c45182c717300ca55fd1cc.png)
 
-## 导入arduino库文件
+### **3.导入arduino库文件**
 
 在开始课程之前我们还需要安装课程里面代码需要的Arduino库文件。
 
-### 1.什么是库文件?
+#### 1.什么是库文件?
 
 库是一组代码，可以方便地连接到传感器、显示器、模块等。例如，内置的LiquidCrystal库可以帮助与LCD显示器对话。网上上还有数百个额外的库可供下载。参考资料(https://www.arduino.cc/en/Reference/Libraries)中列出了内置库和其中一些附加库。
 
-### 2.如何安装库 ?
+#### 2.如何安装库 ?
 
 这里我们将介绍一种最简单的添加库的方法 .
 
@@ -208,14 +208,7 @@ F - 用于从板接收串行数据并将串行数据发送到板的串行监视
 ![](media/ea854ea7aeedc7e9e4c4d438caeeaf9b.png)
 
 
-1.  Arduino软件下载安装，CH340驱动安装和Arduino库文件添加：
-
-本教程的Arduino软件下载安装，CH340驱动安装和Arduino库文件添加都在“1.
-有关arduino课前准备”文件夹中。如果Arduino软件已经下载安装好，CH340驱动也已经安装好和Arduino库文件也添加好了，就跳过这一步；否则，进入项目课程之前需要先将Arduino软件下载安装好，CH340驱动也要安装好和Arduino库文件也需要添加好才能进入下面的项目课程。本教程的Arduino软件下载安装方法，CH340驱动安装方法和Arduino库文件添加方法及软件如下所示：
-
-![](media/c4b622f4024734496bdb8c9770ea3645.png)
-
-## 硬件项目：
+## 电子部分硬件项目：
 
 当你通过每个项目的工作方式，你将学习如何编程机器人移动，舞蹈，和跟随障碍等。
 
