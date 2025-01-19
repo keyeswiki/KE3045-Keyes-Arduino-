@@ -2117,7 +2117,6 @@ POS 设备；
 （4）接口说明：
 
 
-
 ![](media/cd97cf79ff5cdd5bbd78f4cc960d38e5.png)
 
 

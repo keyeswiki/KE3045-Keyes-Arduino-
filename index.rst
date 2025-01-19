@@ -1,6 +1,6 @@
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :caption: KE3045 Keyes Arduino青蛙机器人双足舞蹈步行
 
    README.md
